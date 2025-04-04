@@ -1,0 +1,25 @@
+.chart-container {
+    margin-top: 1rem;
+  }
+  
+  .bar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bar-label {
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .bar {
+    height: 20px;
+    background-color: #0070d2;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .bar-value {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
